@@ -6,9 +6,13 @@ När det gäller designen så har jag lagt allt i en html för att man enkelt sk
 Jag hoppas vidare att det är OK att jag skickar foton på mina skisser/WireFrames och ej ritat det i ett program. Jag kan givetvis göra det om det behövs men skisserna har fungerat bra för mig. 
 
 Jag har i grunden fyra mallsidor och sedan en menyrad samt en Footer mes sociala media kontakter och här använde jag och länkade in Fab:
+
 i) Hero-sidan som jag även har använt på About med en bakrundsbild och text ovanpå (här har jag använt Bootstrap) 
+
 ii) Skills sidan med kolumner (i detta fall två men kan enkelt bli fler) - även här har jag använt Botstrap. Jag såg att kolumnbredden inte adderar ihop helt med två kolumner men det var för jag exprimenterade lite. Det ser OK ut ändå. 
+
 iii) Sidan MY Pictures där man ser en liten bild med text under som man kan klicka på för att få upp bilden större i eget fönster. i mobilen hamnar bilderan under varandra. Som jag nämner nedan ska (och är i min nya version som jag ek skickat in) My Music vara samma och här länka till YouTube och annat. 
+
 iv) Fjärde WireFrame/mallen är Contact som har inmatningsfält. Här är det bara en design med variabler för inmatade värden. Har inte ännu programmerat vad jag ska göra med den.
 
 Förlåt att det finns så många divs just nu ska jobba på det. Vet att du sagt att vi ska använda andra än Div för att få strukturen. Har använt någon Article och sedan Section för varje sida.

@@ -1,0 +1,114 @@
+html, body {
+    width: 90%;
+    margin: 0 auto;
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+
+
+/* Formattering av huvudruta och inputruta samt även lägga till knappen + tecken */
+
+header {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.main_con {
+  width: 360px;   
+}
+
+.main_con_heading {
+  display: flex;
+}
+
+.input {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+#inputField {
+    width: 83%;
+    height: 46px;
+    border: 1px solid black;
+    outline: none;
+    font-size: 1rem;
+    vertical-align: middle;
+}
+
+#inputField:hover {
+    background-color: #bbb;
+  }
+
+#addToDo {
+    height: 50px;
+    width: 50px;
+    border: 1px solid black;
+    vertical-align: middle;
+    font-size: 1.5rem;
+}
+
+
+#addToDo:hover {
+    background-color: #bbb;
+  }
+  
+.to_dos {
+    display: flex;
+    flex-direction: column;
+    margin-top: 25px;
+}
+
+/* Formattering av ToDo listan med ram runt etc */
+.paragraph_styling { 
+    vertical-align: middle;
+    margin: 5px;
+    padding: 5px;
+    cursor: pointer;
+    list-style-type: none;
+    font-size: 1rem;
+    border: 1px solid black;
+    width: 335px;
+    word-break: break-all;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+  }
+  
+/* Färg när hover */
+ul li:hover {
+    background: #ddd;
+  }
+
+
+/* När klickas på bakgrund och genomstruket*/
+.done {
+    text-decoration: line-through;
+    background: darkgrey ;
+  }
+
+
+/* Placera X för att stänga och färg när hover */
+.close {
+    margin: 0 13px 0 0;
+    float: right;
+    color: rgb(255, 255, 255);
+    background-color: rgb(174, 0, 0) ;
+    border: none;
+    outline: none;
+    border-radius: 50%;
+    padding: 2px 5px;
+    transition-duration: 200ms;
+  }
+
+  .close:hover {
+    background-color: rgb(127, 2, 2);
+    color: rgb(255, 255, 255) ;
+  }
+
+  .expl {
+    font-size: 0.65rem;
+    font-style: italic;
+    margin: 15px 5px;
+  }

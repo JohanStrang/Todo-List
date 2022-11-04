@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To Do List</title>
+
+    <link rel="stylesheet" href="src/css/style.css" />
+    <script defer src="src/js/main.js"></script>
+  </head>
+
+  <body>
+    <header>
+      <h1 class="main_con_heading">Att göra lista</h1>
+    </header>
+
+    <main class="start_page">
+      <section class="main_con">
+        <div class="input">
+          <input
+            id="inputField"
+            type="text"
+            placeholder="Lägg till ny att göra..."
+          />
+
+          <button onclick="newToDo()" id="addToDo">+</button>
+        </div>
+      </section>
+
+      <!-- Lägger till några Att Göra från början -->
+      <section>
+        <ul class="to_dos" id="toDoCon">
+          <li class="paragraph_styling">Gå ut med hunden (alla dagar)</li>
+          <li class="paragraph_styling done">
+            Tömma diskmaskinen (alla dagar)
+          </li>
+          <li class="paragraph_styling">Göra läxa (alla dagar)</li>
+        </ul>
+      </section>
+      <p class="expl">
+        Klicka i listan för att markera som klar och klicka på × för att ta bort
+      </p>
+    </main>
+  </body>
+</html>
